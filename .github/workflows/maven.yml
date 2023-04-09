@@ -30,7 +30,7 @@ jobs:
 
     - name: Build with maven
       run: |
-        cd src
+        cd sistemaBanco/src/main/java/
         mvn clean install
     - name: Upload build artifacts
       uses: actions/upload-artifact@v3
